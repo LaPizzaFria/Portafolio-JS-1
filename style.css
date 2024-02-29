@@ -687,7 +687,7 @@ span{
         padding: 2rem 3%;
     }
 }
-@media(max-width:995px){
+@media(max-width:550px){
     #menu-icon{
         display: block;
     }
@@ -733,6 +733,17 @@ span{
     .home-img{
         display: none;
     }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about-content{
+        margin: 0 2rem;
+    }
+    .about img{
+        width: 52vw;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
     .service-container1{
         display: block;
         margin: auto;
@@ -742,7 +753,10 @@ span{
         display: flex;
     }
     .service1 h2{
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
+    }
+    .service-container{
+        grid-template-columns: repeat(1,1fr);
     }
     .services h2{
         margin-bottom: 6rem;
